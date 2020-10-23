@@ -2,18 +2,36 @@ Constraints
 
 Voice Range:
 # LilyPond
-Soprano
- 
-Alto
 
-Tenor
+Soprano:
+{
+  \clef treble
+  c5 g6
+}
+
+Alto:
+{
+  \clef treble
+  g4 c5
+}
+
+Tenor:
 {
   \clef bass
   c4 g5
 }
-Bass
+
+Bass:
 {
   \clef bass
   f3 c5
 }
+
 Voice Leading:
+
+voice = [saprono,auto,tenor,bass]
+v = voice[x=...] # saprono,auto,tenor,bass
+
+for i in range(len(voice[v])):
+  while i > 0:
+    if i-1 
