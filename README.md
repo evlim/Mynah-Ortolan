@@ -1,5 +1,8 @@
 # Mynah-Ortolan
 ### Tonal Harmony Figured Bass Automation
+
+Languagues: Python 3, LilyPond
+
 Outline:
 
 Music notation input (as data) //Make the notation UI clickable for input 
