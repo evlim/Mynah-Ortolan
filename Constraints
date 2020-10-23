@@ -9,15 +9,11 @@ Alto
 Tenor
 {
   \clef bass
-  c4 d e f
-  g4 a b c
-  d4 e f g
+  c4 g5
 }
 Bass
 {
   \clef bass
-  c4 d e f
-  g4 a b c
-  d4 e f g
+  f3 c5
 }
 Voice Leading:
