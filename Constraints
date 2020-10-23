@@ -1,0 +1,23 @@
+Constraints
+
+Voice Range:
+# LilyPond
+Soprano
+ 
+Alto
+
+Tenor
+{
+  \clef bass
+  c4 d e f
+  g4 a b c
+  d4 e f g
+}
+Bass
+{
+  \clef bass
+  c4 d e f
+  g4 a b c
+  d4 e f g
+}
+Voice Leading:
