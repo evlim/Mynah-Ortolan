@@ -29,9 +29,15 @@ Bass:
 
 Voice Leading:
 
+Def loc # define music pitch location
+
 voice = [saprono,auto,tenor,bass]
 v = voice[x=...] # saprono,auto,tenor,bass
 
 for i in range(len(voice[v])):
+  if i = 0:
+     # initial cord, would try spread out (or look at the bass line foward and avoid tender being too low)
   while i > 0:
-    if i-1 
+    if loc[i-1] #### if loc[i-1] is a possible path then loc[i] = loc[i-1]
+  
+    
