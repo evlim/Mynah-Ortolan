@@ -1,5 +1,6 @@
-Constraints
+<h1>Constraints</h1>
 
+####################
 Voice Range:
 # LilyPond
 
@@ -27,6 +28,7 @@ Bass:
   f3 c5
 }
 
+####################
 Voice Leading:
 
 Def loc # define music pitch location
@@ -40,4 +42,6 @@ for i in range(len(voice[v])):
   while i > 0:
     if loc[i-1] #### if loc[i-1] is a possible path then loc[i] = loc[i-1]
   
-    
+####################
+Doubling:
+
